@@ -133,13 +133,16 @@ let footer = $(`
              <div class="form-header">
                 <h6 class="display">Get in Touch</h6>
               </div>
-                <form>
-                  <form action="https://formcarry.com/s/RE-wih-otRs" method="POST" accept-charset="UTF-8" >
-                  <input type="text" name="field1" placeholder="Your Name" required/>
+
+              <form action="https://formspree.io/f/meqnogab" method="POST">
+              <input type="text" name="field1" placeholder="Your Name" required/>
                   <input type="email" name="field2" placeholder="Email Address"  required/>
                   <textarea name="field3" placeholder="Type your Message" required></textarea>
                   <input type="submit" value="Send" />
-                </form>
+            
+              </form>
+              
+                
              </div>
           </div>
         </div>
@@ -194,6 +197,13 @@ let upArrow = $(`
 `);
 
 $(document).ready(function () {
+  // <form>
+  //                 <form action="https://formcarry.com/s/RE-wih-otRs" method="POST" accept-charset="UTF-8" >
+  //                 <input type="text" name="field1" placeholder="Your Name" required/>
+  //                 <input type="email" name="field2" placeholder="Email Address"  required/>
+  //                 <textarea name="field3" placeholder="Type your Message" required></textarea>
+  //                 <input type="submit" value="Send" />
+  //               </form>
   // updating the color of the swiper bullets (initial update of color)
   updateColorOfSwiperBullets(localStorage.getItem("lightMode"));
 

@@ -6,25 +6,25 @@ AOS.init();
 const experiencecards = document.querySelector(".experience-cards");
 const exp = [
   {
-    title: "Software Development Intern",
-    cardImage: "assets/images/experience-page/flipkart.jpg",
-    place: "Flipkart",
-    time: "(May, 2020 - present)",
-    desp: "<li>Worked to migrate Flipkart lite’s product page to AMP pages so that they load up instantly.</li> <li>Made changes in the current progressive web app of Flipkart to react to different actions performed on AMP page.</li> <li>Created a node module called “fk-amp” which abstracts all the files and middlewares and can be easily imported and used from express server.</li>",
+    title: "Frontend Developer Intern",
+    cardImage: "assets/images/experience-page/kujiale.png",
+    place: "Hangzhou,China",
+    time: "(May, 2021 - August 2021)",
+    desp: "<li>Reconstructed codebase of main websites to migrate the stack from Vue to React with a team of 4.</li> <li>Designed the first draft of user growth's website architecture, laying the foundation for the team's work for 4 weeks.</li> <li>Created reusable UI components supporting fully responsive webpages with Bootstrap.</li> <li>Implemented an algorithm for furniture sorting by countries and improved its accuracy with mock data.</li>",
   },
   {
-    title: "Student Developer",
-    cardImage: "assets/images/experience-page/gsoc.png",
-    place: "Google Summer Of Code",
-    time: "(Mar - Aug, 2019)",
-    desp: "<li>Worked with MOZILLA as a part of Google Summer Of Code.</li><li>Worked on Extension Activity Monitor which is a privileged extension for Firefox that uses the activityLog API (privileged API) to monitor the activities of the other installed extensions.</li><li>The activityLog API listens for logs from other installed extensions.</li>",
+    title: "Software Developer/ Testing",
+    cardImage: "assets/images/experience-page/ali.jpeg",
+    place: "Shanghai, China",
+    time: "(September 2020 - December 2020)",
+    desp: "<li>Implemented an algorithm in Java to convert a drafted PRD into a more readable technical document to tremendously increase engineering efficiency.</li><li>Designed a front-end UI of the test tool and implemented an algorithm to record voice during testing.</li> <li>Monitored vehicle testing environment to reduce the impacts of noise, weather, and vehicle speed.</li> <li>Designed and implemented test cases ,achieved bug management through Jira</li><li>Project experience: 1. Skoda Vehicle System 2. SAIC Volkswagen project </li>",
   },
   {
     title: "Research Intern",
-    cardImage: "assets/images/experience-page/IIT_Bombay.jpg",
-    place: "IIT, Bombay",
-    time: "(Dec, 19 - Jan, 20)",
-    desp:"<li>Worked on the project “LTI (Learning Tools Interoperability) 2.0 standards Implementation for ekShiksha.</li><li>Designed a software that would help faculty to create a quiz using the questions from the database based on his/her choice of topics and he should be provided with various facilities and options to create a quiz of his choice.</li>",
+    cardImage: "assets/images/experience-page/deep.jpeg",
+    place: "Shnghai/Changzhou,China",
+    time: "(June 2020 - August 2020)",
+    desp: "<li>Implemented an algorithm in Python for image processing to identify the impurities of cosmetics in the production line.</li><li>Researched in image processing algorithms especially OpenCV and NumPy.</li>",
   },
 ];
 
@@ -32,7 +32,7 @@ const showCards2 = () => {
   let output = "";
   exp.forEach(
     ({ title, cardImage, place, time, desp }) =>
-      (output += `        
+    (output += `        
     <div class="col gaap" data-aos="fade-up" data-aos-easing="linear" data-aos-delay="100" data-aos-duration="400"> 
       <div class="card card1">
         <img src="${cardImage}" class="featured-image"/>
@@ -93,7 +93,7 @@ const showCards = () => {
   let output = "";
   volunteershipcards.forEach(
     ({ title, cardImage, description }) =>
-      (output += `        
+    (output += `        
       <div class="card volunteerCard" data-aos="fade-down" data-aos-easing="linear" data-aos-delay="100" data-aos-duration="600" style="height: 550px;width:400px">
       
       <img src="${cardImage}" height="250" width="65" class="card-img" style="border-radius:10px">
@@ -204,15 +204,15 @@ const mentor = [
     image: "assets/images/experience-page/nhacks.png",
     desp: "NHacks VI was a hackathon that aimed to encourage students everywhere to develop skills in computer science by creating tangible products that they're proud of. It initially started as Michigan's largest high school hackathon.",
   }
-  
+
 
 ];
 
 const showCards3 = () => {
   let output = "";
   mentor.forEach(
-    ({ title, image, subtitle, desp}) =>
-      (output += `  
+    ({ title, image, subtitle, desp }) =>
+    (output += `  
       <div class="blog-slider__item swiper-slide">
         <div class="blog-slider__img">
             <img src="${image}" alt="">

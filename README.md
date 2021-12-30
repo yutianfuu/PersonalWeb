@@ -1,2 +1,1 @@
-## Personal Website
-### Link: https://yutianfuu.github.io/PersonalWeb/
+Personal Website: https://yutianfuu.github.io/PersonalWeb/
